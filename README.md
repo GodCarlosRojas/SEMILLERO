@@ -16,6 +16,7 @@ Este es el repositorio donde se encuentra nuestro parser. A continuacion te dare
 - Parser/MyVisitor.py: Analisador semantico
 - Parser/open: archivo.csv (ejemplo)
 - Parser/t.expr: Archivo entrada con instrucciones (ejemplo)
+- Carpeta Informe: Aqui detallamos paso a paso nuestro proceso para construir el Parser
 - Capeta Ejemplos: Aqui se encuentran algunos ejemplos de que cosas puede hacer nuestra gramatica.
 
 
