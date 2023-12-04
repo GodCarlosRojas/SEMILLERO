@@ -10,14 +10,13 @@
 
 Este es el repositorio donde se encuentra nuestro parser. A continuacion te daremos una breve explicacion del contenido:
 
-Carpeta Parser: Aqui se encuentran todos los archivos necesarios para ejecutar el proyecto
-Parser/calc.py: Clase main 
-Parser/LabeledExpr.g4: Gramatica
-Parser/MyVisitor.py: Analisador semantico
-Parser/open: archivo.csv (ejemplo)
-Parser/t.expr: Archivo entrada con instrucciones (ejemplo)
-
-Capeta Ejemplos: Aqui se encuentran algunos ejemplos de que cosas puede hacer nuestra gramatica.
+-Carpeta Parser: Aqui se encuentran todos los archivos necesarios para ejecutar el proyecto
+-Parser/calc.py: Clase main 
+-Parser/LabeledExpr.g4: Gramatica
+-Parser/MyVisitor.py: Analisador semantico
+-Parser/open: archivo.csv (ejemplo)
+-Parser/t.expr: Archivo entrada con instrucciones (ejemplo)
+-Capeta Ejemplos: Aqui se encuentran algunos ejemplos de que cosas puede hacer nuestra gramatica.
 
 
 
