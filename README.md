@@ -13,7 +13,7 @@ Este es el repositorio donde se encuentra nuestro parser. A continuacion te dare
 - Carpeta Parser: Aqui se encuentran todos los archivos necesarios para ejecutar el proyecto
 - Parser/calc.py: Clase main 
 - Parser/LabeledExpr.g4: Gramatica
-- Parser/MyVisitor.py: Analisador semantico
+- Parser/MyVisitor.py: Analizador semantico
 - Parser/subVisitors/..: Subclases de MyVisitor especializadas en determinada tarea
 - Parser/open: archivo.csv (ejemplo)
 - Parser/t.expr: Archivo entrada con instrucciones (ejemplo)
@@ -21,6 +21,7 @@ Este es el repositorio donde se encuentra nuestro parser. A continuacion te dare
 - Capeta Ejemplos: Aqui se encuentran algunos ejemplos de que cosas puede hacer nuestra gramatica.
 
 
+## Pasos para ejecutar el proyecto
 
 Para ejecutar los archivos ejemplo que estan disponibles debes seguir los siguientes pasos:
 
@@ -34,3 +35,8 @@ Para ejecutar los archivos ejemplo que estan disponibles debes seguir los siguie
 8. Ingresar el nombre del archivo con las instrucciones (ej: t.expr)
 
 Cabe resaltar que si deseas ejecutar el proyecto con otro archivo que no sea "t.expr" lo puedes hacer, este solo es un ejemplo que decidimos incluir en la carpeta para que verificaras si todo esta funcionando correctamente al descargarlo.
+
+
+## ¡Un video para ti!
+
+A continuacion te dejamos el link de un video hecho por nosotros para que observer paso a paso como ejecutar el proyecto:
