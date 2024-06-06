@@ -39,4 +39,4 @@ Cabe resaltar que si deseas ejecutar el proyecto con otro archivo que no sea "t.
 
 ## ¡Un video para ti!
 
-A continuacion te dejamos el link de un video hecho por nosotros para que observer paso a paso como ejecutar el proyecto:
+A continuacion te dejamos el link de un video hecho por nosotros para que observes paso a paso como ejecutar el proyecto:
