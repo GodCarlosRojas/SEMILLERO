@@ -1,22 +1,22 @@
-data = READ(open,Header)
+data = READ(csvPesos,Header)
 data = DROP(data,edad)
 data = FILLNA(data)
 
 nombres = SELECT_COLUMN(data,nombre)
-pesos = SELECT_COLUMN(data,peso)
+masas = SELECT_COLUMN(data,peso)
 estatura = SELECT_COLUMN(data, estatura)
 
 LibrasAkilos = lambda x: x*0.453592
 PiesAmetros = lambda x: x*0.3048
 
-peso = LibrasAkilos(pesos)
+masas = LibrasAkilos(masas)
 estatura = PiesAmetros(estatura)
 
-IndiceMasaCorporal = (pesos / (estatura*estatura)) 
+IndiceMasaCorporal = (masas / (estatura*estatura)) 
 
 resultado = CONCAT_COLUMN(nombres,IndiceMasaCorporal)
 
 resultado
 
-PesosYestaturas = CONCAT_COLUMN(estatura,peso)
+PesosYestaturas = CONCAT_COLUMN(estatura,masas)
 SCATTER(PesosYestaturas, estatura, peso)
