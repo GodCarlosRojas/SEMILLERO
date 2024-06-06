@@ -26,7 +26,7 @@ Este es el repositorio donde se encuentra nuestro parser. A continuacion te dare
 Para ejecutar los archivos ejemplo que estan disponibles debes seguir los siguientes pasos:
 
 1. Instalar python
-2. Instalar las siguientes lebrerias de python: numpy, pandas, matplotlib.pyplot, sympy y seaborn.
+2. Instalar las siguientes librerias de python: numpy, pandas, matplotlib, sympy y seaborn.
 3. Istalar Antlr4 para python
 4. Descargar la carpeta "Parser"
 5. Abrir una consola en la direccion de la capeta
