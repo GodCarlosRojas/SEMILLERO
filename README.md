@@ -14,6 +14,7 @@ Este es el repositorio donde se encuentra nuestro parser. A continuacion te dare
 - Parser/calc.py: Clase main 
 - Parser/LabeledExpr.g4: Gramatica
 - Parser/MyVisitor.py: Analisador semantico
+- Parser/subVisitors/..: Subclases de MyVisitor especializadas en determinada tarea
 - Parser/open: archivo.csv (ejemplo)
 - Parser/t.expr: Archivo entrada con instrucciones (ejemplo)
 - Carpeta Informe: Aqui detallamos paso a paso nuestro proceso para construir el Parser
@@ -21,14 +22,15 @@ Este es el repositorio donde se encuentra nuestro parser. A continuacion te dare
 
 
 
-
-En otras palabras, el contenido de la carpeta "Parser" es el proyecto. Para ejecutar los archivos ejemplo que estan en la carpeta debes seguir los siguientes pasos:
+Para ejecutar los archivos ejemplo que estan disponibles debes seguir los siguientes pasos:
 
 1. Instalar python
-2. Istalar Antlr4
-3. Descargar la carpeta "Parser"
-4. Abrir una consola en la direccion de la capeta
-5. Ingresar en la consola: antlr4 -Dlanguage=Python3 LabeledExpr.g4 -visitor
-6. Ingresar en la consola: python3 calc.py t.expr
+2. Instalar las siguientes lebrerias de python: numpy, pandas, matplotlib.pyplot, sympy y seaborn.
+3. Istalar Antlr4 para python
+4. Descargar la carpeta "Parser"
+5. Abrir una consola en la direccion de la capeta
+6. Ingresar en la consola: antlr4 -Dlanguage=Python3 LabeledExpr.g4 -visitor
+7. Ingresar en la consola: python3 calc.py
+8. Ingresar el nombre del archivo con las instrucciones (ej: t.expr)
 
-Cabe resaltar que si deseas ejecutar el proyecto con otro archivo que no sea "t.expr" lo puedes hacer, este solo es un pequeño ejemplo que decidimos incluir en la carpeta para que verificaras si todo esta funcionando correctamente al descargarlo.
+Cabe resaltar que si deseas ejecutar el proyecto con otro archivo que no sea "t.expr" lo puedes hacer, este solo es un ejemplo que decidimos incluir en la carpeta para que verificaras si todo esta funcionando correctamente al descargarlo.
