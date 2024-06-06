@@ -1,6 +1,22 @@
-a = 15
-b = 5
-a+b
-a-b
-a*b
-a/b
+data = READ(open,Header)
+data = DROP(data,edad)
+data = FILLNA(data)
+
+nombres = SELECT_COLUMN(data,nombre)
+pesos = SELECT_COLUMN(data,peso)
+estatura = SELECT_COLUMN(data, estatura)
+
+LibrasAkilos = lambda x: x*0.453592
+PiesAmetros = lambda x: x*0.3048
+
+peso = LibrasAkilos(pesos)
+estatura = PiesAmetros(estatura)
+
+IndiceMasaCorporal = (pesos / (estatura*estatura)) 
+
+resultado = CONCAT_COLUMN(nombres,IndiceMasaCorporal)
+
+resultado
+
+PesosYestaturas = CONCAT_COLUMN(estatura,peso)
+SCATTER(PesosYestaturas, estatura, peso)

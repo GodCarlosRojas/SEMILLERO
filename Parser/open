@@ -1,4 +1,52 @@
-edad,peso
-17,60
-20,70
-22,
+nombre,edad,peso,estatura
+Juan Pérez,20,154,5.8
+María López,,143,5.5
+Carlos García,19,150,
+Ana Martínez,21,121,5.4
+Luis Rodríguez,23,172,6.0
+Laura Fernández,20,132,5.6
+José Sánchez,22,159,5.9
+Elena Gómez,19,128,5.4
+Miguel Torres,21,165,
+Sara Ramírez,20,,5.6
+Daniel Morales,24,176,6.1
+Lucía Díaz,,126,5.4
+Pablo Ortega,20,161,5.9
+Sofía Vega,22,134,5.5
+Andrés Castro,23,167,5.10
+Isabel Reyes,19,141,5.5
+Roberto Romero,21,152,5.7
+Claudia Ruiz,20,130,5.5
+Francisco Mendoza,22,163,5.8
+Carmen Herrera,19,139,5.4
+Javier Castillo,23,170,
+Valeria Soto,21,123,5.4
+Manuel Silva,24,174,6.0
+Marta Navarro,20,147,5.6
+Álvaro Rivas,22,157,5.8
+Victoria Paredes,19,119,5.3
+Santiago Aguirre,21,,5.7
+Gabriela Campos,20,154,5.6
+Emilio Delgado,23,165,5.9
+Patricia Molina,19,132,5.5
+Jorge Méndez,22,150,5.7
+Alejandra Peña,21,137,5.5
+Rafael Lozano,24,172,6.0
+Adriana Cruz,20,128,5.4
+Antonio Cabrera,23,159,5.9
+Natalia Marín,19,126,5.4
+Fernando León,,167,5.10
+Irene Soto,21,130,
+Eduardo Bravo,20,,5.7
+Paula Vázquez,23,143,5.5
+Diego Rivera,24,176,
+Carla Castillo,19,134,5.5
+Raúl Fuentes,22,170,5.11
+Rocío Luna,,121,5.4
+Víctor Rojas,20,,5.9
+Beatriz Iglesias,23,141,
+Martín Escobar,19,154,5.8
+Teresa Guzmán,21,145,5.6
+Samuel Guerrero,22,174,6.0
+Laura Mendoza,,139,5.5
+
